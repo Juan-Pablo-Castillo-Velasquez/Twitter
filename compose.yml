@@ -1,0 +1,9 @@
+services:
+  twitter:
+    build: .
+    working_dir: /app/twitter
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app/twitter
+    command: tail -f /dev/null

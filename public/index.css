@@ -1,0 +1,193 @@
+body {
+  margin: 0px;
+  padding: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Title_main {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70px;
+  color: rgb(218, 218, 218);
+  display: block;
+}
+
+.logo {
+  fill: white;
+  background-color: rgba(2, 2, 2, 0.836);
+  width: 40vw;
+  height: 40vh;
+}
+
+.Main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+  align-items: center;
+}
+.section_main_button {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  width: fit-content;
+}
+.section_main p {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: rgb(233, 232, 232);
+}
+
+.section_main .bton-desing {
+  background-color: #fff;
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  font-size: 15px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.section_main .bton-desing:hover {
+  background-color: #d6d6d6;
+  color: black;
+}
+
+.icon1 {
+  width: 15px;
+  height: 15px;
+  margin: 0px 2px 0px 0px;
+}
+.div_space {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.space_o {
+  width: 10vw;
+  border-top: 1px solid #333232;
+}
+.space_o span {
+  color: white;
+  text-align: center;
+}
+.space_i {
+  border: none;
+  color: white;
+}
+.section_main .Privacidad {
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(180, 180, 180);
+}
+.text_context_1 {
+  color: rgb(29, 155, 240);
+}
+
+.section_2 .bton-desing {
+  background-color: #ffffff00;
+  color: rgb(235, 234, 234);
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  border: solid 0.4px white;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 24vh;
+}
+
+.section_2 .bton-desing:hover {
+  background-color: #53525254;
+  color: rgb(235, 234, 234);
+}
+
+.section_2 p {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.create_account {
+  background-color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  font-size: 16px;
+  color: rgb(3, 3, 3);
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 12px;
+  font-weight: bold;
+  border: solid 0.4px white;
+}
+
+.create_account:hover {
+  background-color: #d6d6d6;
+  color: black;
+}
+
+body > main > aside > section.section_main > div > button > a {
+  text-decoration: none;
+  background-color: #ffffff00;
+  color: rgb(22, 22, 22);
+}
+
+body > main > aside > section.section_main > div > button.create_account > a {
+  text-decoration: none;
+  background-color: #ffffff00;
+  color: rgb(22, 22, 22);
+}
+
+body > main > aside > section.section_2 > button:nth-child(2) > span > a {
+  color: rgb(235, 234, 234);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body > main > aside > section.section_2 > button:nth-child(3) > div > span > a {
+  color: rgb(235, 234, 234);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.fotter_main .footer-list {
+  display: flex;
+  flex-wrap: wrap;     
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  color: white;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.fotter_main .footer-list li::after {
+  content: "|";
+  margin-left: 15px;
+  color: #555;   
+  font-weight: bold;        
+}
+
+.fotter_main .footer-list li:last-child::after {
+  content: "";
+}
