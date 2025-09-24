@@ -3,13 +3,10 @@ npm-debug.log
 yarn-error.log
 logs
 *.log
-
 dist/
 build/
-
 .env
 .env.local
-
 .DS_Store
 *.swp
 *.swo
